@@ -91,13 +91,13 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_2jtshln',
-        'template_fmfk6sm',
+        'service_xlbcvrx',
+        'template_ila05mr',
         {
           from_name: form.name,
-          to_name: 'thebas',
+          to_name: 'byjen',
           from_email: form.email,
-          to_email: 'thebasdocaribe1@gmail.com',
+          to_email: 'byjen.contact@gmail.com',
 
           phone: `${form.phonePrefix} ${form.phone}`,
           nationality: form.nationality,
@@ -106,11 +106,11 @@ const Contact = () => {
 
           message: form.message,
         },
-        'qoTXYT-aqr5xjirRv'
+        'vQkqsA00LEwNSBdvr'
       )
       .then(() => {
         setLoading(false);
-        alert('Obg por mandar um email, vamos retornar assim que possível.');
+        alert('Gracias por enviar un correo electrónico, regresaremos el mayor tiempo posible.');
 
         setForm({
           name: '',

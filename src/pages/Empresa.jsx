@@ -75,8 +75,6 @@ const Empresa = () => {
           />
         ))}
       </div>
-
-      {/* Texto principal */}
       <div className="content text-center max-w-3xl mx-auto mb-20">
         <p className="text-xl leading-relaxed">
           Byjen!{" "}
@@ -86,7 +84,7 @@ const Empresa = () => {
           accesible para todos!
         </p>
         <p className="mt-4 opacity-60">
-          mi empresa se centró en impulsar marcas, creadores y negocios a través de soluciones inteligentes en marketing y tecnología digital.
+          Mi empresa se centró en impulsar marcas, creadores y negocios a través de soluciones inteligentes en marketing y tecnología digital.
         </p>
       </div>
 

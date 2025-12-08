@@ -36,15 +36,18 @@ const Hero = () => {
               ></video>
           </div>
         )}
-
+        
+    <div className="w-full max-h-[600px] overflow-hidden flex justify-center">
         <video
           ref={videoRef}
-          src="/videos/mds.mp4"
+          src="/videos/template_1.mp4"
           autoPlay
-          className='w-4xl mb-10'
+          className='w-full h-full'
           muted
+          loop
           playsInline
         ></video>
+    </div>
 
         <a href='https://wa.me/56938946998' target='_blank' className="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all mb-3">
           Contacto
