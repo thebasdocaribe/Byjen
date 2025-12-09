@@ -173,12 +173,12 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Teléfono</span>
 
-            <div className="flex gap-3">
+            <div className="flex flex-col sm:flex-row gap-3">
               <select
                 name="phonePrefix"
                 value={form.phonePrefix}
                 onChange={handlePrefixChange}
-                className="bg-[#15102e] py-4 px-4 text-white rounded-lg"
+                className="bg-[#15102e] py-[14px] sm:py-4 px-4 text-white rounded-lg"
               >
                 {countryCodes.map((c) => (
                   <option key={c.code} value={c.code}>
@@ -193,11 +193,12 @@ const Contact = () => {
                 value={form.phone}
                 onChange={handlePhoneChange}
                 placeholder="(DDD) 9 9999-9999"
-                className="bg-[#15102e] flex-1 py-4 px-6 placeholder:text-[#a7a7b9] 
-                           text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-[#15102e] flex-1 py-[14px] sm:py-4 px-6 placeholder:text-[#a7a7b9]
+                          text-white rounded-lg outlined-none border-none font-medium"
               />
             </div>
           </label>
+
 
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Nacionalidad</span>
