@@ -25,7 +25,7 @@ const Home = () => {
                 </Link>
             
             <Link
-                to={"/Formulario"}
+                to={"/Contact"}
                 className="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
                 >
                 Formulario
