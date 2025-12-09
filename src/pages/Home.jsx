@@ -10,23 +10,23 @@ const Home = () => {
     return (
         <main className="w-full bg-black text-white flex flex-col items-center justify-center overflow-hidden">
             <Hero />
-            <div className="flex items-center justify-center gap-6 mt-40 mb-5">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mt-40 mb-5">
                 <Link
                     to={"/Influencer"}
-                    className="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
+                    className="px-5 py-2 sm:px-6 sm:py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
                     >
                         Influenciador
                     </Link>
                     <Link
                     to={"/Empresa"}
-                    className="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
+                    className="px-5 py-2 sm:px-6 sm:py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
                     >
                         Empresas
                 </Link>
             
             <Link
                 to={"/Contact"}
-                className="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
+                className="px-5 py-2 sm:px-6 sm:py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-all"
                 >
                 Contact
             </Link>
